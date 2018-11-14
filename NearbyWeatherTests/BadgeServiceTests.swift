@@ -14,6 +14,8 @@ class BadgeServiceTests: XCTestCase {
     override func setUp() {
         super.setUp()
         
+        NetworkingService.instantiateSharedInstance()
+        NetworkingService.shared.reachabilityStatus = .connected
         BadgeService.instantiateSharedInstance()
         WeatherDataManager.instantiateSharedInstance()
         PreferencesManager.instantiateSharedInstance()
@@ -26,10 +28,7 @@ class BadgeServiceTests: XCTestCase {
         
         WeatherDataManager.shared.bookmarkedLocations = [WeatherStationDTO(identifier: 5341145, name: "Cupertino", country: "US", coordinates: Coordinates(latitude: 37.323002, longitude: -122.032181))]
         PreferencesManager.shared.preferredBookmark = PreferredBookmark(value: WeatherDataManager.shared.bookmarkedLocations.first!.identifier)
-        sleep(2)
-        BadgeService.shared = nil
-        WeatherDataManager.shared = nil
-        PreferencesManager.shared = nil
+        sleep(3)
     }
 
     func testDisablingBadgeService() {
@@ -60,6 +59,7 @@ class BadgeServiceTests: XCTestCase {
         var bookmarks = WeatherDataManager.shared.bookmarkedLocations
         bookmarks.append(mockedBratislava)
         WeatherDataManager.shared.bookmarkedLocations = bookmarks
+        sleep(2)
 
         // Update data
         let expectation = XCTestExpectation(description: "Weather data should update")

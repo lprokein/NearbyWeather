@@ -13,6 +13,7 @@
 		8674FEB12198CFA800CCBEED /* ConversionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674FEB02198CFA800CCBEED /* ConversionsTests.swift */; };
 		8674FEB32198DAA400CCBEED /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674FEB22198DAA400CCBEED /* NetworkServiceTests.swift */; };
 		8674FEB52198DD3300CCBEED /* NetworkingServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674FEB42198DD3300CCBEED /* NetworkingServiceStub.swift */; };
+		8674FEB72199680800CCBEED /* PreferencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674FEB62199680800CCBEED /* PreferencesTests.swift */; };
 		86830392217BBA5D00B7122E /* BadgeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86830391217BBA5D00B7122E /* BadgeService.swift */; };
 		86830394217BBAE400B7122E /* PermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86830393217BBAE400B7122E /* PermissionsManager.swift */; };
 		F204B77B1DF2EFA3000F4371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204B77A1DF2EFA3000F4371 /* AppDelegate.swift */; };
@@ -96,6 +97,7 @@
 		8674FEB02198CFA800CCBEED /* ConversionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionsTests.swift; sourceTree = "<group>"; };
 		8674FEB22198DAA400CCBEED /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
 		8674FEB42198DD3300CCBEED /* NetworkingServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingServiceStub.swift; sourceTree = "<group>"; };
+		8674FEB62199680800CCBEED /* PreferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTests.swift; sourceTree = "<group>"; };
 		86830391217BBA5D00B7122E /* BadgeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeService.swift; sourceTree = "<group>"; };
 		86830393217BBAE400B7122E /* PermissionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsManager.swift; sourceTree = "<group>"; };
 		86830395217BC28E00B7122E /* NearbyWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NearbyWeather.entitlements; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 		F204B78E1DF2EFA3000F4371 /* NearbyWeatherTests */ = {
 			isa = PBXGroup;
 			children = (
+				8674FEB62199680800CCBEED /* PreferencesTests.swift */,
 				8674FEB22198DAA400CCBEED /* NetworkServiceTests.swift */,
 				8674FEB02198CFA800CCBEED /* ConversionsTests.swift */,
 				8674FEAE2198C4AC00CCBEED /* BadgeServiceTests.swift */,
@@ -753,6 +756,7 @@
 				8674FEB12198CFA800CCBEED /* ConversionsTests.swift in Sources */,
 				8674FEB32198DAA400CCBEED /* NetworkServiceTests.swift in Sources */,
 				8674FEB52198DD3300CCBEED /* NetworkingServiceStub.swift in Sources */,
+				8674FEB72199680800CCBEED /* PreferencesTests.swift in Sources */,
 				8674FEAF2198C4AC00CCBEED /* BadgeServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
