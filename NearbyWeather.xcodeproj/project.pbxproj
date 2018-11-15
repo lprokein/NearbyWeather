@@ -497,7 +497,7 @@
 				TargetAttributes = {
 					F204B7761DF2EFA3000F4371 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VDPU24L36V;
+						DevelopmentTeam = Q4C48EKH9Z;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -511,14 +511,14 @@
 					};
 					F204B78A1DF2EFA3000F4371 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VDPU24L36V;
+						DevelopmentTeam = 88FUJ8L8BV;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F204B7761DF2EFA3000F4371;
 					};
 					F204B7951DF2EFA3000F4371 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VDPU24L36V;
+						DevelopmentTeam = 88FUJ8L8BV;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F204B7761DF2EFA3000F4371;
@@ -944,12 +944,12 @@
 			baseConfigurationReference = 20E2DFB16875223CFBEA36EF /* Pods-NearbyWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VDPU24L36V;
 				CODE_SIGN_ENTITLEMENTS = NearbyWeather/NearbyWeather.entitlements;
+				DEVELOPMENT_TEAM = Q4C48EKH9Z;
 				INFOPLIST_FILE = NearbyWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = sk.ovocinari.NearbyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -960,12 +960,12 @@
 			baseConfigurationReference = 2DB36716201A47922EC83643 /* Pods-NearbyWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VDPU24L36V;
 				CODE_SIGN_ENTITLEMENTS = NearbyWeather/NearbyWeather.entitlements;
+				DEVELOPMENT_TEAM = Q4C48EKH9Z;
 				INFOPLIST_FILE = NearbyWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = sk.ovocinari.NearbyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -977,7 +977,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VDPU24L36V;
+				DEVELOPMENT_TEAM = 88FUJ8L8BV;
 				INFOPLIST_FILE = NearbyWeatherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeatherTests;
@@ -993,7 +993,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VDPU24L36V;
+				DEVELOPMENT_TEAM = 88FUJ8L8BV;
 				INFOPLIST_FILE = NearbyWeatherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeatherTests;
@@ -1007,7 +1007,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				DEVELOPMENT_TEAM = VDPU24L36V;
+				DEVELOPMENT_TEAM = 88FUJ8L8BV;
 				INFOPLIST_FILE = NearbyWeatherUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeatherUITests;
@@ -1021,7 +1021,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				DEVELOPMENT_TEAM = VDPU24L36V;
+				DEVELOPMENT_TEAM = 88FUJ8L8BV;
 				INFOPLIST_FILE = NearbyWeatherUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeatherUITests;

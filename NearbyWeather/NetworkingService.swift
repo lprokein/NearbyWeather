@@ -28,7 +28,7 @@ class NetworkingService {
     // MARK: - Properties
     
     private let reachabilityManager: NetworkReachabilityManager?
-    public private(set) var reachabilityStatus: ReachabilityStatus
+    public var reachabilityStatus: ReachabilityStatus
     
     
     // MARK: - Initialization
