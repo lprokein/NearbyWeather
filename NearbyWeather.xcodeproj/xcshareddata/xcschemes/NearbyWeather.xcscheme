@@ -50,13 +50,7 @@
             </BuildableReference>
             <SkippedTests>
                <Test
-                  Identifier = "BadgeServiceTests">
-               </Test>
-               <Test
                   Identifier = "NearbyWeatherTests">
-               </Test>
-               <Test
-                  Identifier = "PreferencesTests">
                </Test>
             </SkippedTests>
          </TestableReference>
